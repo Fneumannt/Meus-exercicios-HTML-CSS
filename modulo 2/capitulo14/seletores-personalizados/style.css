@@ -1,0 +1,25 @@
+@charset "UFT-8";
+
+/*
+em HTML id = # em CSS
+em HTML class = . em CSS*/ 
+
+body{
+    background-color: rgb(216, 255, 157);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color: rgb(141, 211, 37);
+}
+
+h1#principal{
+    text-align: center;
+    background-color: rgb(141, 211, 37);
+    color: white;
+}
+
+
+h2{
+    color: rgb(165, 165, 165);
+}
