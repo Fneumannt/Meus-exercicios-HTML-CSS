@@ -1,8 +1,9 @@
 @charset "UFT-8";
 
 /*
-em HTML id = # em CSS
-em HTML class = . em CSS*/ 
+em HTML id = # em CSS, pode ser usado apenas em 1 elemento
+em HTML class = . em CSS, é para ser usado em mais de um elemento
+podendo utilizar mais de uma classe em um elemento e junto de um id */ 
 
 body{
     background-color: rgb(216, 255, 157);
@@ -10,7 +11,7 @@ body{
 }
 
 h1{
-    color: rgb(141, 211, 37);
+    color: rgb(100, 128, 117);
 }
 
 h1#principal{
@@ -22,4 +23,20 @@ h1#principal{
 
 h2{
     color: rgb(165, 165, 165);
+}
+
+.basico{
+color: green;
+}
+
+.inter{
+color: rgb(226, 226, 5);
+}
+
+.avancado{
+color: red;
+}
+
+.destaque{
+    background-color: salmon;
 }
