@@ -1,0 +1,23 @@
+@charset "UTF-8";
+h1{ /* Box-Level */
+    height: 250px;
+    width: 250px;
+    background-color: lightgray;
+    border: 10px solid darkslategray;    
+    padding: 50px;   
+    margin: 20px auto 40px auto;
+    outline: 5px dashed salmon;
+}
+a{ /*inline-level */
+    border: 5px dotted forestgreen;
+    padding: 10px 10px 10px 10px;
+}
+a#especial{
+    display: block;
+    border:  10px solid forestgreen;
+    height: 20px;
+    width: 20px;
+    text-align: center;
+    margin: 5px 100px 5px 100px;
+
+}
