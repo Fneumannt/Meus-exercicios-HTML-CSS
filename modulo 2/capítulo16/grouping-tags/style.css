@@ -7,12 +7,20 @@ body{
 header{
     background-color: whitesmoke;
     padding: 10px;
-    margin: 10px;    
+    margin: 10px;
+    border-radius: 0px 20px;
+    box-shadow: 4px 4px 10px 1px black;    
+}
+h1{
+    background-color: black;
+    color: whitesmoke;
+    box-shadow: 3px 2px 20px 16px black;
 }
 nav{
     width: 383px;
     background-color: rgb(177, 134, 26);
-    padding: 3px;        
+    padding: 3px;
+    box-shadow: 5px 5px 10px 0px rgb(0 0 0 / 52%);        
 }
 nav > a{
     text-decoration: none;
@@ -27,6 +35,8 @@ main{
     background-color: whitesmoke;
     padding: 10px;
     margin: 10px;
+    border-radius: 0px 20px;
+    box-shadow: 4px 4px 10px 1px black;
 }
 article{
     background-color: lightgrey;
@@ -40,5 +50,9 @@ footer{
     color: whitesmoke;
     text-align: center;
     padding: 1px;
+    margin: 0px;
+    box-shadow: 2px 2px 4px 1px black;
+}
+footer > p{
     margin: 0px;
 }
